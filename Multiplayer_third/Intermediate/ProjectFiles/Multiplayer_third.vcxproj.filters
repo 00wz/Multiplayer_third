@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Multiplayer_third.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Multiplayer_third.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Multiplayer_thirdEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Multiplayer_third">
+      <UniqueIdentifier>{1BFC2ADE-61C5-3E10-A96E-29F32FF554D7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Multiplayer_third\Multiplayer_third.Build.cs">
+      <Filter>Source\Multiplayer_third</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Multiplayer_third\Multiplayer_third.cpp">
+      <Filter>Source\Multiplayer_third</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Multiplayer_third\Multiplayer_third.h">
+      <Filter>Source\Multiplayer_third</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Multiplayer_third\Multiplayer_thirdCharacter.cpp">
+      <Filter>Source\Multiplayer_third</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Multiplayer_third\Multiplayer_thirdCharacter.h">
+      <Filter>Source\Multiplayer_third</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Multiplayer_third\Multiplayer_thirdGameMode.cpp">
+      <Filter>Source\Multiplayer_third</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Multiplayer_third\Multiplayer_thirdGameMode.h">
+      <Filter>Source\Multiplayer_third</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
