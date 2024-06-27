@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4NJ1ypNm3GaMF2lfllwzMQeHvopEhIF/UgDFAk4lpoNsAkgAYDsoU6017tFYa2TrV941KnZL5+EZZwaT05ybRg==",
+  "dgSpecHash": "d1Js0FjJwa7L8g3Si5lIOwxGbHr/dlfpUUEOFG9A1Yvtlpk6YCfxAjvcuRsCaNHWFE78jyLP8R5WiF007h8aNw==",
   "success": true,
   "projectFilePath": "D:\\UEProj\\Multiplayer_third\\Multiplayer_third\\Intermediate\\Build\\BuildRulesProjects\\Multiplayer_thirdModuleRules\\Multiplayer_thirdModuleRules.csproj",
   "expectedPackageFiles": [
@@ -139,10 +139,7 @@
     "C:\\Users\\Pavel\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Pavel\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\Pavel\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Pavel\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Pavel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Pavel\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Pavel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+    "C:\\Users\\Pavel\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
