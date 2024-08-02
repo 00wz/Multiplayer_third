@@ -7,3 +7,8 @@ bool UMyBlueprintFunctionLibrary::HasLocalNetOwner(AActor *actor)
 {
 	return actor->HasLocalNetOwner();
 }
+
+float UMyBlueprintFunctionLibrary::MaxFloat()
+{
+	return std::numeric_limits<float>::max();
+}

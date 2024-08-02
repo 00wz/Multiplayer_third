@@ -16,4 +16,7 @@ class MULTIPLAYER_THIRD_API UMyBlueprintFunctionLibrary : public UBlueprintFunct
 	
 		UFUNCTION(BlueprintPure, Category = "Network")
     	static bool HasLocalNetOwner(AActor *actor);
+	
+		UFUNCTION(BlueprintPure, Category = "Float")
+    	static float MaxFloat();
 };
