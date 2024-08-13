@@ -2137,3 +2137,522 @@ Make sure 'AN_Reload' has been compiled for  SendGameplayEventToActor
 [2024.08.13-10.06.12:858][887]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Core/BP_LevelGameMode.BP_LevelGameMode
 [2024.08.13-10.06.12:859][887]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Core/BP_PlayerController.BP_PlayerController
 [2024.08.13-10.06.12:859][887]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Weapons/BP_Railgun.BP_Railgun
+[2024.08.13-10.14.18:053][802]LogHttp: Warning: 00000412A7730000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.08.13-10.14.18:053][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 0 (Found bundle for host: 0x41204960000 [serially])
+[2024.08.13-10.14.18:053][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.08.13-10.14.18:053][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.08.13-10.14.18:053][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2024.08.13-10.14.18:053][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2024.08.13-10.14.18:053][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.08.13-10.14.18:053][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2024.08.13-10.14.18:053][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 7 (Closing connection)
+[2024.08.13-10.14.18:054][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.08.13-10.14.18:054][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 9 (Send failure: Connection was reset)
+[2024.08.13-10.14.18:054][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2024.08.13-10.14.18:054][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1811B2F5-4756-5D00-2B4A-FB930C2ED5C8%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4e1cc74c428c8232d855818387013395%7C06d3cade56ff477ebea43e741d18d6e7%7Ca84e01c8-5ec4-41ba-9295-d22d01924b72&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.08.13-10.14.18:054][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 12 (  Trying 3.82.255.125:443...)
+[2024.08.13-10.14.18:054][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 13 (Connected to datarouter.ol.epicgames.com (3.82.255.125) port 443)
+[2024.08.13-10.14.18:054][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 14 (ALPN: curl offers http/1.1)
+[2024.08.13-10.14.18:054][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 15 (SSL reusing session ID)
+[2024.08.13-10.14.18:054][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 26 (Server certificate:)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 28 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 29 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 33 (using HTTP/1.1)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 34 (necessary data rewind wasn't possible)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 35 (Closing connection)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: 00000412A7730000: libcurl info message cache 36 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2024.08.13-10.14.18:055][802]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1811B2F5-4756-5D00-2B4A-FB930C2ED5C8%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4e1cc74c428c8232d855818387013395%7C06d3cade56ff477ebea43e741d18d6e7%7Ca84e01c8-5ec4-41ba-9295-d22d01924b72&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.08.13-10.18.54:428][131]LogShaderCompilers: Display: ================================================
+[2024.08.13-10.18.54:429][131]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.13-10.18.54:429][131]LogShaderCompilers: Display: Total job queries 82, among them cache hits 23 (28.05%)
+[2024.08.13-10.18.54:429][131]LogShaderCompilers: Display: Tracking 59 distinct input hashes that result in 51 distinct outputs (86.44%)
+[2024.08.13-10.18.54:429][131]LogShaderCompilers: Display: RAM used: 1,72 MiB of 819,20 MiB budget. Usage: 0.21%
+[2024.08.13-10.18.54:429][131]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.13-10.18.54:429][131]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.08.13-10.18.54:429][131]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.08.13-10.18.54:429][131]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.08.13-10.18.54:429][131]LogShaderCompilers: Display: ================================================
+[2024.08.13-10.18.54:946][133]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.13-10.19.27:489][533]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.08.13-10.19.27:489][533]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.08.13-10.20.02:862][926]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.08.13-10.21.38:716][809]LogSlate: Took 0.001512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.08.13-10.22.11:609][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.08.13-10.22.11:613][661]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.029
+[2024.08.13-10.22.11:614][661]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.08.13-10.22.11:614][661]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.13-10.22.11:691][661]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C]
+[2024.08.13-10.22.11:691][661]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.13-10.22.11:722][661]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.08.13-10.22.11:722][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.08.13-10.22.11:744][661]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1
+[2024.08.13-10.22.11:744][661]LogSavePackage: Moving 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/BP_ThirdPersonCharacter_Auto1BD4B6F404210971DB9448C8B41237EC4.tmp' to 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset'
+[2024.08.13-10.22.11:746][661]LogFileHelpers: Auto-saving content packages took 0.132
+[2024.08.13-10.31.14:249][ 98]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.08.13-10.32.05:041][123]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.08.13-10.32.36:703][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.08.13-10.32.36:706][809]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.025
+[2024.08.13-10.32.36:707][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.08.13-10.32.36:707][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.08.13-10.32.36:728][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2
+[2024.08.13-10.32.36:730][809]LogSavePackage: Moving 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/BP_ThirdPersonCharacter_Auto28FF6B77443230D7DA57897AD519692D7.tmp' to 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2.uasset'
+[2024.08.13-10.32.36:730][809]LogFileHelpers: Auto-saving content packages took 0.024
+[2024.08.13-10.33.55:462][661]LogInterchangeEngine: [Pending] Importing
+[2024.08.13-10.33.55:462][661]LogInterchangeEngine: Display: Interchange start importing source [D:/Downloads/heart.png]
+[2024.08.13-10.33.55:480][662]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.08.13-10.33.55:513][662]LogTexture: Display: Building textures: /Game/Images/heart.heart (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.08.13-10.33.55:531][662]LogInterchangeEngine: [Pending] Importing
+[2024.08.13-10.33.55:764][662]LogInterchangeEngine: [Success] Import Done
+[2024.08.13-10.33.55:830][663]LogInterchangeEngine: [Success] Import Done
+[2024.08.13-10.34.32:865][446]LogSlate: Took 0.000567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.08.13-10.35.37:853][843]LogSlate: Took 0.007473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.08.13-10.37.03:784][436]LogEditorTransaction: Undo Edit Bottom
+[2024.08.13-10.38.24:721][510]LogEditorTransaction: Undo Edit Bottom
+[2024.08.13-10.39.27:412][479]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18446744065119794504
+[2024.08.13-10.39.27:413][479]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.39.27:427][480]LogSlate: Took 0.000486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.08.13-10.39.27:428][480]LogSlate: Took 0.000765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.08.13-10.39.27:430][480]LogSlate: Took 0.000919 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.08.13-10.39.27:433][480]LogSlate: Took 0.001141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.08.13-10.39.27:433][480]LogSlate: Took 0.000655 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.08.13-10.39.27:438][480]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.08.13-10.39.39:551][875]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 1396
+[2024.08.13-10.39.39:551][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.39.39:560][876]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.08.13-10.39.39:561][876]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.08.13-10.39.39:563][876]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.08.13-10.39.39:565][876]LogSlate: Took 0.000823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.08.13-10.39.39:565][876]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.08.13-10.39.39:570][876]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.08.13-10.40.03:341][555]LogSlate: Window 'Color Picker' being destroyed
+[2024.08.13-10.40.50:445][830]BlueprintLog: New page: Compile W_HUD
+[2024.08.13-10.40.50:487][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.08.13-10.40.51:562][918]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.08.13-10.40.52:710][ 10]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.13-10.40.52:718][ 10]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.08.13-10.40.52:718][ 10]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.13-10.40.52:720][ 10]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 10 ms)
+[2024.08.13-10.40.52:720][ 10]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.08.13-10.40.52:729][ 10]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.08.13-10.40.52:885][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.08.13-10.40.52:889][ 10]LogPlayLevel: PlayLevel: Blueprint regeneration took 168 ms (1 blueprints)
+[2024.08.13-10.40.52:889][ 10]PIE: New page: PIE session: ThirdPersonMap (13 авг. 2024 г., 16:40:52)
+[2024.08.13-10.40.52:890][ 10]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.13-10.40.52:895][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005432s)
+[2024.08.13-10.40.52:895][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005488s)
+[2024.08.13-10.40.52:911][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.08.13-10.40.52:912][ 10]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.13-10.40.52:912][ 10]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.13-10.40.52:912][ 10]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.13-10.40.52:914][ 10]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.13-10.40.52:914][ 10]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.13-10.40.52:914][ 10]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.13-10.40.52:914][ 10]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Listen Server, IsServer = 1, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.13-10.40.52:915][ 10]LogContentBundle: [ThirdPersonMap(Listen Server)] Creating new contrainer.
+[2024.08.13-10.40.52:915][ 10]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.00 sec)
+[2024.08.13-10.40.52:915][ 10]LogPlayLevel: PIE: World Init took: (0.003059s)
+[2024.08.13-10.40.52:915][ 10]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.08.13-10.40.52:915][ 10]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.13-10.40.52:915][ 10]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.13-10.40.52:915][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.13-10.40.52:915][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.13-10.40.52:915][ 10]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.13-10.40.52:915][ 10]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.13-10.40.52:915][ 10]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.13-10.40.52:915][ 10]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.13-10.40.52:916][ 10]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.13-10.40.52:916][ 10]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.13-10.40.52:916][ 10]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.13-10.40.52:918][ 10]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.13-10.40.52:958][ 10]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek(R) Audio)
+[2024.08.13-10.40.52:958][ 10]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.13-10.40.52:958][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.13-10.40.52:959][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.13-10.40.52:965][ 10]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.08.13-10.40.52:965][ 10]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.08.13-10.40.52:967][ 10]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.08.13-10.40.52:967][ 10]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.08.13-10.40.52:967][ 10]LogInit: FAudioDevice initialized with ID 10.
+[2024.08.13-10.40.52:967][ 10]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2024.08.13-10.40.52:968][ 10]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.08.13-10.40.52:972][ 10]LogLoad: Game class is 'BP_LevelGameMode_C'
+[2024.08.13-10.40.52:973][ 10]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.13-13.40.52
+[2024.08.13-10.40.52:977][ 10]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.08.13-10.40.52:978][ 10]LogWorld: Bringing up level for play took: 0.004708
+[2024.08.13-10.40.52:984][ 10]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2024.08.13-10.40.52:984][ 10]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2024.08.13-10.40.52:984][ 10]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2024.08.13-10.40.52:984][ 10]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2024.08.13-10.40.52:984][ 10]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2024.08.13-10.40.52:984][ 10]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2024.08.13-10.40.52:988][ 10]PIE: Server logged in
+[2024.08.13-10.40.52:988][ 10]PIE: Play in editor total start time 0,27 seconds.
+[2024.08.13-10.40.52:989][ 10]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.13-10.40.52:989][ 10]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.13-10.40.52:990][ 10]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2024.08.13-10.40.52:990][ 10]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.08.13-10.40.52:990][ 10]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.13-10.40.52:990][ 10]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.13-10.40.52:990][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.13-10.40.52:990][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.13-10.40.52:990][ 10]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.13-10.40.52:990][ 10]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.13-10.40.52:990][ 10]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.13-10.40.52:990][ 10]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.13-10.40.52:990][ 10]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.13-10.40.52:990][ 10]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.13-10.40.52:990][ 10]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.13-10.40.52:992][ 10]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.13-10.40.53:031][ 10]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek(R) Audio)
+[2024.08.13-10.40.53:031][ 10]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.13-10.40.53:031][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.13-10.40.53:031][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.13-10.40.53:038][ 10]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.08.13-10.40.53:038][ 10]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.08.13-10.40.53:040][ 10]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.08.13-10.40.53:040][ 10]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.08.13-10.40.53:040][ 10]LogInit: FAudioDevice initialized with ID 11.
+[2024.08.13-10.40.53:040][ 10]LogAudio: Display: Audio Device (ID: 11) registered with world 'Untitled'.
+[2024.08.13-10.40.53:040][ 10]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.08.13-10.40.53:082][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.13-10.40.53:082][ 10]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.08.13-10.40.53:082][ 10]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2024.08.13-10.40.53:082][ 10]LogNet: Created socket for bind address: 0.0.0.0:0
+[2024.08.13-10.40.53:083][ 10]LogNet: IpConnection_8 setting maximum channels to: 32767
+[2024.08.13-10.40.53:083][ 10]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2024.08.13-10.40.53:084][ 10]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 5
+[2024.08.13-10.40.53:084][ 10]LogNet: Game client on port 17777, rate 100000
+[2024.08.13-10.40.53:088][ 10]PIE: Client logged in
+[2024.08.13-10.40.53:090][ 10]PIE: Play in editor total start time 0,372 seconds.
+[2024.08.13-10.40.53:107][ 10]LogViewport: Scene viewport resized to 640x480, mode Windowed.
+[2024.08.13-10.40.54:884][ 12]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64594
+[2024.08.13-10.40.54:884][ 12]LogHandshake: SendConnectChallenge. Timestamp: 2.180037, Cookie: 177242142176082015235202132000079157196155112018077005132152
+[2024.08.13-10.40.54:887][ 12]LogHandshake: Cached server SessionID: 2
+[2024.08.13-10.40.54:887][ 12]LogHandshake: SendChallengeResponse. Timestamp: 2.180037, Cookie: 177242142176082015235202132000079157196155112018077005132152
+[2024.08.13-10.40.55:003][ 13]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64594
+[2024.08.13-10.40.55:003][ 13]LogHandshake: SendChallengeAck. InCookie: 177242142176082015235202132000079157196155112018077005132152
+[2024.08.13-10.40.55:003][ 13]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64594
+[2024.08.13-10.40.55:003][ 13]LogNet: IpConnection_9 setting maximum channels to: 32767
+[2024.08.13-10.40.55:003][ 13]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2024.08.13-10.40.55:004][ 13]LogNet: NotifyAcceptedConnection: Name: ThirdPersonMap, TimeStamp: 08/13/24 13:40:55, [UNetConnection] RemoteAddr: 127.0.0.1:64594, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2024.08.13-10.40.55:004][ 13]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64594, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2024.08.13-10.40.55:006][ 13]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2024.08.13-10.40.55:036][ 14]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap: Accepted
+[2024.08.13-10.40.55:036][ 14]LogNet: Remote platform little endian=1
+[2024.08.13-10.40.55:036][ 14]LogNet: This platform little endian=1
+[2024.08.13-10.40.55:042][ 14]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.08.13-10.40.55:747][ 15]LogNet: Login request: ?Name=DESKTOP-A52DIDO-25D4AC0B4710FD4EB970A9A624CF3B96 userId: NULL:DESKTOP-A52DIDO-25D4AC0B4710FD4EB970A9A624CF3B96 platform: NULL
+[2024.08.13-10.40.55:750][ 15]LogNet: Welcomed by server (Level: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap, Game: /Game/ThirdPerson/Blueprints/Core/BP_LevelGameMode.BP_LevelGameMode_C)
+[2024.08.13-10.40.55:750][ 15]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap?game=/Game/ThirdPerson/Blueprints/Core/BP_LevelGameMode.BP_LevelGameMode_C
+[2024.08.13-10.40.55:750][ 15]LogWorld: BeginTearingDown for /Temp/Untitled_5
+[2024.08.13-10.40.55:750][ 15]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.08.13-10.40.55:750][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.40.55:773][ 15]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.13-10.40.55:776][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.08.13-10.40.55:784][ 15]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2024.08.13-10.40.55:784][ 15]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.13-10.40.55:784][ 15]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.13-10.40.55:785][ 15]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.13-10.40.55:785][ 15]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.13-10.40.55:785][ 15]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.13-10.40.55:785][ 15]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Client, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.13-10.40.55:786][ 15]LogContentBundle: [ThirdPersonMap(Client 1)] Creating new contrainer.
+[2024.08.13-10.40.55:786][ 15]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.00 sec)
+[2024.08.13-10.40.55:786][ 15]LogPlayLevel: PIE: World Init took: (0.002329s)
+[2024.08.13-10.40.55:787][ 15]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_1_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.13-13.40.55
+[2024.08.13-10.40.55:788][ 15]LogWorld: Bringing up level for play took: 0.001398
+[2024.08.13-10.40.55:788][ 15]LogLoad: Took 0.037266 seconds to LoadMap(/Game/ThirdPerson/Maps/ThirdPersonMap)
+[2024.08.13-10.40.55:822][ 16]LogNet: Client netspeed is 100000
+[2024.08.13-10.40.55:822][ 16]LogNet: Join request: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=DESKTOP-A52DIDO-25D4AC0B4710FD4EB970A9A624CF3B96?SplitscreenCount=1
+[2024.08.13-10.40.55:832][ 16]LogNet: Join succeeded: DESKTOP-A52DIDO-25D4
+[2024.08.13-10.43.09:209][493]LogNetPackageMap: Error: GetObjectFromNetGUID: Failed to find outer. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.09:209][493]LogNetPackageMap: Warning: InternalLoadObject: Unable to resolve object. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.09:241][494]LogNetPackageMap: Error: GetObjectFromNetGUID: Failed to find outer. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.09:241][494]LogNetPackageMap: Warning: InternalLoadObject: Unable to resolve object. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.09:279][495]LogNetPackageMap: Error: GetObjectFromNetGUID: Failed to find outer. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.09:279][495]LogNetPackageMap: Warning: InternalLoadObject: Unable to resolve object. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.09:316][496]LogNetPackageMap: Error: GetObjectFromNetGUID: Failed to find outer. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.09:316][496]LogNetPackageMap: Warning: InternalLoadObject: Unable to resolve object. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.09:352][497]LogNetPackageMap: Error: GetObjectFromNetGUID: Failed to find outer. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.09:352][497]LogNetPackageMap: Warning: InternalLoadObject: Unable to resolve object. FullNetGUIDPath: [7]/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.[5]ThirdPersonMap.[3]PersistentLevel.[117]StaticMeshActor_34.[115]StaticMeshComponent0
+[2024.08.13-10.43.32:271][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.13-10.43.32:271][ 85]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_1_ThirdPersonMap
+[2024.08.13-10.43.32:273][ 85]LogSlate: Window 'Multiplayer_third Preview [NetMode: Client 1]  (64-bit/PC D3D SM6)' being destroyed
+[2024.08.13-10.43.32:294][ 85]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.13-10.43.32:298][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.43.32:299][ 85]LogContentBundle: [ThirdPersonMap(Client 1)] Deleting container.
+[2024.08.13-10.43.32:302][ 85]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2024.08.13-10.43.32:302][ 85]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2024.08.13-10.43.32:303][ 85]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: BP_PlayerController_C_0, Owner: BP_PlayerController_C_0, UniqueId: NULL:DESKTOP-A52DIDO-25D4AC0B4710FD4EB970A9A624CF3B96, Channels: 17, Time: 2024.08.13-10.43.32
+[2024.08.13-10.43.32:303][ 85]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: BP_PlayerController_C_0, Owner: BP_PlayerController_C_0, UniqueId: NULL:DESKTOP-A52DIDO-25D4AC0B4710FD4EB970A9A624CF3B96
+[2024.08.13-10.43.32:304][ 85]LogExit: GameNetDriver IpNetDriver_9 shut down
+[2024.08.13-10.43.32:310][ 85]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.13-10.43.32:314][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.13-10.43.32:314][ 85]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.13-10.43.32:315][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.43.32:316][ 85]LogContentBundle: [ThirdPersonMap(Listen Server)] Deleting container.
+[2024.08.13-10.43.32:318][ 85]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2024.08.13-10.43.32:319][ 85]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2024.08.13-10.43.32:319][ 85]LogNet: UNetConnection::SendCloseReason:
+[2024.08.13-10.43.32:319][ 85]LogNet:  - Result=HostClosedConnection, ErrorContext="HostClosedConnection"
+[2024.08.13-10.43.32:319][ 85]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:64594, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: BP_PlayerController_C_1, Owner: BP_PlayerController_C_1, UniqueId: NULL:DESKTOP-A52DIDO-25D4AC0B4710FD4EB970A9A624CF3B96
+[2024.08.13-10.43.32:319][ 85]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64594, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: BP_PlayerController_C_1, Owner: BP_PlayerController_C_1, UniqueId: NULL:DESKTOP-A52DIDO-25D4AC0B4710FD4EB970A9A624CF3B96, Channels: 17, Time: 2024.08.13-10.43.32
+[2024.08.13-10.43.32:319][ 85]LogNet: UNetConnection::SendCloseReason:
+[2024.08.13-10.43.32:319][ 85]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2024.08.13-10.43.32:319][ 85]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64594, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: BP_PlayerController_C_1, Owner: BP_PlayerController_C_1, UniqueId: NULL:DESKTOP-A52DIDO-25D4AC0B4710FD4EB970A9A624CF3B96
+[2024.08.13-10.43.32:321][ 85]LogExit: GameNetDriver IpNetDriver_8 shut down
+[2024.08.13-10.43.32:323][ 85]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.13-10.43.32:333][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.43.32:359][ 85]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.08.13-10.43.32:363][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.08.13-10.43.32:367][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.08.13-10.43.32:375][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.13-10.43.32:375][ 85]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.08.13-10.43.32:376][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.08.13-10.43.32:377][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.08.13-10.43.32:405][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.08.13-10.43.32:442][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.08.13-10.43.32:444][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.08.13-10.43.36:438][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.08.13-10.43.37:584][225]LogSlate: Window 'Save Content' being destroyed
+[2024.08.13-10.43.37:595][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.13-10.43.37:753][225]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.08.13-10.43.37:753][225]LogSavePackage: Moving 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/BP_ThirdPersonCharacterDB9E9EF844C6E94BAA696BA7263433F4.tmp' to 'D:/UEProj/Multiplayer_third/Multiplayer_third/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.08.13-10.43.37:758][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/heart" FILE="D:/UEProj/Multiplayer_third/Multiplayer_third/Content/Images/heart.uasset" SILENT=true
+[2024.08.13-10.43.37:772][225]LogSavePackage: Moving output files for package: /Game/Images/heart
+[2024.08.13-10.43.37:772][225]LogSavePackage: Moving 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/heartA93A3E8747BC69637EFF9A9775F016E8.tmp' to 'D:/UEProj/Multiplayer_third/Multiplayer_third/Content/Images/heart.uasset'
+[2024.08.13-10.43.37:789][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/UI/W_HUD" FILE="D:/UEProj/Multiplayer_third/Multiplayer_third/Content/ThirdPerson/Blueprints/UI/W_HUD.uasset" SILENT=true
+[2024.08.13-10.43.37:795][225]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/UI/W_HUD
+[2024.08.13-10.43.37:796][225]LogSavePackage: Moving 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/W_HUD7B8A82644ACE9193B480B08E628AF17B.tmp' to 'D:/UEProj/Multiplayer_third/Multiplayer_third/Content/ThirdPerson/Blueprints/UI/W_HUD.uasset'
+[2024.08.13-10.43.37:806][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 431 ms)
+[2024.08.13-10.43.37:821][225]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.13-10.43.37:821][225]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.08.13-10.43.37:822][225]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Images/heart.heart
+[2024.08.13-10.43.37:822][225]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/Blueprints/UI/W_HUD.W_HUD
+[2024.08.13-10.44.04:291][ 84]LogSlate: Took 0.000596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.08.13-10.44.06:963][386]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.08.13-10.44.07:054][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.08.13-10.46.03:289][733]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.08.13-10.46.03:398][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.08.13-10.46.37:298][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.08.13-10.46.37:301][695]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.027
+[2024.08.13-10.46.37:301][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.08.13-10.46.37:366][695]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.08.13-10.46.37:366][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.08.13-10.46.37:388][695]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3
+[2024.08.13-10.46.37:388][695]LogSavePackage: Moving 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/BP_ThirdPersonCharacter_Auto3DAAD28F9466764D1F353068994231FF5.tmp' to 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3.uasset'
+[2024.08.13-10.46.37:390][695]LogFileHelpers: Auto-saving content packages took 0.089
+[2024.08.13-10.48.41:156][511]LogSlate: Took 0.000847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.08.13-10.52.13:083][933]BlueprintLog: New page: Compile BP_PlayerController
+[2024.08.13-10.52.13:096][933]LogBlueprint: Error: [AssetLog] D:\UEProj\Multiplayer_third\Multiplayer_third\Content\ThirdPerson\Blueprints\Core\BP_PlayerController.uasset: [Compiler] The property associated with  Health Ratio  could not be found in '/Game/ThirdPerson/Blueprints/Core/BP_PlayerController.BP_PlayerController_C'
+[2024.08.13-10.52.13:181][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.08.13-10.52.20:318][760]BlueprintLog: New page: Compile W_HUD
+[2024.08.13-10.52.20:347][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.08.13-10.52.22:936][ 28]BlueprintLog: New page: Compile BP_PlayerController
+[2024.08.13-10.52.22:974][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.08.13-10.52.36:809][593]BlueprintLog: New page: Compile BP_PlayerController
+[2024.08.13-10.52.36:851][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.08.13-10.52.46:196][671]BlueprintLog: New page: Compile BP_PlayerController
+[2024.08.13-10.52.46:234][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.08.13-10.52.47:834][808]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.08.13-10.52.47:843][808]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.08.13-10.52.47:843][808]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.13-10.52.47:844][808]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 11 ms)
+[2024.08.13-10.52.47:845][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.13-10.52.47:845][808]PIE: New page: PIE session: ThirdPersonMap (13 авг. 2024 г., 16:52:47)
+[2024.08.13-10.52.47:845][808]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.13-10.52.47:848][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004141s)
+[2024.08.13-10.52.47:848][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004180s)
+[2024.08.13-10.52.47:866][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.08.13-10.52.47:867][808]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.13-10.52.47:867][808]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.13-10.52.47:868][808]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.08.13-10.52.47:868][808]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.13-10.52.47:869][808]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.13-10.52.47:869][808]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.13-10.52.47:869][808]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Listen Server, IsServer = 1, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.13-10.52.47:870][808]LogContentBundle: [ThirdPersonMap(Listen Server)] Creating new contrainer.
+[2024.08.13-10.52.47:870][808]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.00 sec)
+[2024.08.13-10.52.47:870][808]LogPlayLevel: PIE: World Init took: (0.002737s)
+[2024.08.13-10.52.47:870][808]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.08.13-10.52.47:870][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.13-10.52.47:870][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.13-10.52.47:870][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.13-10.52.47:870][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.13-10.52.47:870][808]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.13-10.52.47:870][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.13-10.52.47:870][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.13-10.52.47:870][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.13-10.52.47:870][808]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.13-10.52.47:870][808]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.13-10.52.47:870][808]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.13-10.52.47:873][808]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.13-10.52.47:912][808]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek(R) Audio)
+[2024.08.13-10.52.47:912][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.13-10.52.47:912][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.13-10.52.47:912][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.13-10.52.47:919][808]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.08.13-10.52.47:919][808]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.08.13-10.52.47:921][808]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.08.13-10.52.47:921][808]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.08.13-10.52.47:921][808]LogInit: FAudioDevice initialized with ID 12.
+[2024.08.13-10.52.47:921][808]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2024.08.13-10.52.47:921][808]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.08.13-10.52.47:924][808]LogLoad: Game class is 'BP_LevelGameMode_C'
+[2024.08.13-10.52.47:926][808]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.13-13.52.47
+[2024.08.13-10.52.47:928][808]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.08.13-10.52.47:928][808]LogWorld: Bringing up level for play took: 0.004200
+[2024.08.13-10.52.47:935][808]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2024.08.13-10.52.47:935][808]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2024.08.13-10.52.47:935][808]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2024.08.13-10.52.47:935][808]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2024.08.13-10.52.47:935][808]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2024.08.13-10.52.47:935][808]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2024.08.13-10.52.47:939][808]PIE: Server logged in
+[2024.08.13-10.52.47:940][808]PIE: Play in editor total start time 0,098 seconds.
+[2024.08.13-10.52.47:940][808]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.13-10.52.47:941][808]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.13-10.52.47:941][808]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2024.08.13-10.52.47:941][808]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.08.13-10.52.47:941][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.13-10.52.47:941][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.13-10.52.47:941][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.13-10.52.47:941][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.13-10.52.47:941][808]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.13-10.52.47:941][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.13-10.52.47:941][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.13-10.52.47:941][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.13-10.52.47:942][808]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.13-10.52.47:942][808]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.13-10.52.47:942][808]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.13-10.52.47:944][808]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.13-10.52.47:980][808]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek(R) Audio)
+[2024.08.13-10.52.47:981][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.13-10.52.47:981][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.13-10.52.47:981][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.13-10.52.47:986][808]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.08.13-10.52.47:986][808]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.08.13-10.52.47:988][808]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.08.13-10.52.47:988][808]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.08.13-10.52.47:988][808]LogInit: FAudioDevice initialized with ID 13.
+[2024.08.13-10.52.47:988][808]LogAudio: Display: Audio Device (ID: 13) registered with world 'Untitled'.
+[2024.08.13-10.52.47:988][808]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.08.13-10.52.48:025][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.13-10.52.48:026][808]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.08.13-10.52.48:026][808]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2024.08.13-10.52.48:026][808]LogNet: Created socket for bind address: 0.0.0.0:0
+[2024.08.13-10.52.48:026][808]LogNet: IpConnection_10 setting maximum channels to: 32767
+[2024.08.13-10.52.48:026][808]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2024.08.13-10.52.48:027][808]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 6
+[2024.08.13-10.52.48:027][808]LogNet: Game client on port 17777, rate 100000
+[2024.08.13-10.52.48:030][808]PIE: Client logged in
+[2024.08.13-10.52.48:032][808]PIE: Play in editor total start time 0,19 seconds.
+[2024.08.13-10.52.48:050][808]LogViewport: Scene viewport resized to 640x480, mode Windowed.
+[2024.08.13-10.52.49:040][821]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64851
+[2024.08.13-10.52.49:040][821]LogHandshake: SendConnectChallenge. Timestamp: 1.213826, Cookie: 059020191250139050105253058137028055173049120104239112131175
+[2024.08.13-10.52.49:043][821]LogHandshake: Cached server SessionID: 2
+[2024.08.13-10.52.49:043][821]LogHandshake: SendChallengeResponse. Timestamp: 1.213826, Cookie: 059020191250139050105253058137028055173049120104239112131175
+[2024.08.13-10.52.49:055][822]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64851
+[2024.08.13-10.52.49:055][822]LogHandshake: SendChallengeAck. InCookie: 059020191250139050105253058137028055173049120104239112131175
+[2024.08.13-10.52.49:055][822]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64851
+[2024.08.13-10.52.49:055][822]LogNet: IpConnection_11 setting maximum channels to: 32767
+[2024.08.13-10.52.49:055][822]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2024.08.13-10.52.49:055][822]LogNet: NotifyAcceptedConnection: Name: ThirdPersonMap, TimeStamp: 08/13/24 13:52:49, [UNetConnection] RemoteAddr: 127.0.0.1:64851, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2024.08.13-10.52.49:055][822]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64851, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2024.08.13-10.52.49:058][822]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2024.08.13-10.52.49:070][823]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap: Accepted
+[2024.08.13-10.52.49:070][823]LogNet: Remote platform little endian=1
+[2024.08.13-10.52.49:070][823]LogNet: This platform little endian=1
+[2024.08.13-10.52.49:074][823]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.08.13-10.52.49:087][824]LogNet: Login request: ?Name=DESKTOP-A52DIDO-1A81ACCB447F76FA79BC8CB3E4DF39C2 userId: NULL:DESKTOP-A52DIDO-1A81ACCB447F76FA79BC8CB3E4DF39C2 platform: NULL
+[2024.08.13-10.52.49:090][824]LogNet: Welcomed by server (Level: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap, Game: /Game/ThirdPerson/Blueprints/Core/BP_LevelGameMode.BP_LevelGameMode_C)
+[2024.08.13-10.52.49:090][824]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap?game=/Game/ThirdPerson/Blueprints/Core/BP_LevelGameMode.BP_LevelGameMode_C
+[2024.08.13-10.52.49:090][824]LogWorld: BeginTearingDown for /Temp/Untitled_6
+[2024.08.13-10.52.49:090][824]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.08.13-10.52.49:090][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.52.49:107][824]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.13-10.52.49:109][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.08.13-10.52.49:116][824]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2024.08.13-10.52.49:116][824]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.13-10.52.49:116][824]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.13-10.52.49:117][824]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.13-10.52.49:117][824]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.13-10.52.49:117][824]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.13-10.52.49:117][824]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Client, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.13-10.52.49:118][824]LogContentBundle: [ThirdPersonMap(Client 1)] Creating new contrainer.
+[2024.08.13-10.52.49:118][824]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.00 sec)
+[2024.08.13-10.52.49:118][824]LogPlayLevel: PIE: World Init took: (0.002267s)
+[2024.08.13-10.52.49:119][824]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_1_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.13-13.52.49
+[2024.08.13-10.52.49:119][824]LogWorld: Bringing up level for play took: 0.001371
+[2024.08.13-10.52.49:120][824]LogLoad: Took 0.030445 seconds to LoadMap(/Game/ThirdPerson/Maps/ThirdPersonMap)
+[2024.08.13-10.52.49:145][825]LogNet: Client netspeed is 100000
+[2024.08.13-10.52.49:145][825]LogNet: Join request: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=DESKTOP-A52DIDO-1A81ACCB447F76FA79BC8CB3E4DF39C2?SplitscreenCount=1
+[2024.08.13-10.52.49:154][825]LogNet: Join succeeded: DESKTOP-A52DIDO-1A81
+[2024.08.13-10.53.54:699][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.13-10.53.54:699][714]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_1_ThirdPersonMap
+[2024.08.13-10.53.54:699][714]LogSlate: Window 'Multiplayer_third Preview [NetMode: Client 1]  (64-bit/PC D3D SM6)' being destroyed
+[2024.08.13-10.53.54:721][714]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.13-10.53.54:723][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.53.54:723][714]LogContentBundle: [ThirdPersonMap(Client 1)] Deleting container.
+[2024.08.13-10.53.54:724][714]LogNet: World NetDriver shutdown IpNetDriver_11 [GameNetDriver]
+[2024.08.13-10.53.54:724][714]LogNet: DestroyNamedNetDriver IpNetDriver_11 [GameNetDriver]
+[2024.08.13-10.53.54:724][714]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: BP_PlayerController_C_0, Owner: BP_PlayerController_C_0, UniqueId: NULL:DESKTOP-A52DIDO-1A81ACCB447F76FA79BC8CB3E4DF39C2, Channels: 17, Time: 2024.08.13-10.53.54
+[2024.08.13-10.53.54:724][714]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: BP_PlayerController_C_0, Owner: BP_PlayerController_C_0, UniqueId: NULL:DESKTOP-A52DIDO-1A81ACCB447F76FA79BC8CB3E4DF39C2
+[2024.08.13-10.53.54:724][714]LogExit: GameNetDriver IpNetDriver_11 shut down
+[2024.08.13-10.53.54:727][714]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.13-10.53.54:728][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.13-10.53.54:728][714]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.13-10.53.54:728][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.53.54:728][714]LogContentBundle: [ThirdPersonMap(Listen Server)] Deleting container.
+[2024.08.13-10.53.54:729][714]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2024.08.13-10.53.54:729][714]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2024.08.13-10.53.54:729][714]LogNet: UNetConnection::SendCloseReason:
+[2024.08.13-10.53.54:729][714]LogNet:  - Result=HostClosedConnection, ErrorContext="HostClosedConnection"
+[2024.08.13-10.53.54:729][714]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:64851, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: BP_PlayerController_C_1, Owner: BP_PlayerController_C_1, UniqueId: NULL:DESKTOP-A52DIDO-1A81ACCB447F76FA79BC8CB3E4DF39C2
+[2024.08.13-10.53.54:729][714]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64851, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: BP_PlayerController_C_1, Owner: BP_PlayerController_C_1, UniqueId: NULL:DESKTOP-A52DIDO-1A81ACCB447F76FA79BC8CB3E4DF39C2, Channels: 17, Time: 2024.08.13-10.53.54
+[2024.08.13-10.53.54:729][714]LogNet: UNetConnection::SendCloseReason:
+[2024.08.13-10.53.54:729][714]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2024.08.13-10.53.54:729][714]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64851, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: BP_PlayerController_C_1, Owner: BP_PlayerController_C_1, UniqueId: NULL:DESKTOP-A52DIDO-1A81ACCB447F76FA79BC8CB3E4DF39C2
+[2024.08.13-10.53.54:729][714]LogExit: GameNetDriver IpNetDriver_10 shut down
+[2024.08.13-10.53.54:731][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.13-10.53.54:744][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.13-10.53.54:767][714]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.13-10.53.54:767][714]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.08.13-10.53.54:767][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.08.13-10.53.54:768][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.08.13-10.53.54:776][714]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.08.13-10.53.54:776][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.08.13-10.53.54:779][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.08.13-10.53.54:786][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.13-10.53.54:794][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.08.13-10.53.54:851][715]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.08.13-10.53.54:851][715]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.08.13-10.54.25:469][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.08.13-10.54.26:633][955]LogSlate: Window 'Save Content' being destroyed
+[2024.08.13-10.54.26:642][955]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.13-10.54.26:746][955]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Core/BP_PlayerController
+[2024.08.13-10.54.26:747][955]LogSavePackage: Moving 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/BP_PlayerController199CB88D4DA1AA2D808F408808F2F907.tmp' to 'D:/UEProj/Multiplayer_third/Multiplayer_third/Content/ThirdPerson/Blueprints/Core/BP_PlayerController.uasset'
+[2024.08.13-10.54.26:768][955]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.08.13-10.54.26:768][955]LogSavePackage: Moving 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/BP_ThirdPersonCharacterA48154AF46E6D10354907094605C593C.tmp' to 'D:/UEProj/Multiplayer_third/Multiplayer_third/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.08.13-10.54.26:772][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/UI/W_HUD" FILE="D:/UEProj/Multiplayer_third/Multiplayer_third/Content/ThirdPerson/Blueprints/UI/W_HUD.uasset" SILENT=true
+[2024.08.13-10.54.26:778][955]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/UI/W_HUD
+[2024.08.13-10.54.26:778][955]LogSavePackage: Moving 'D:/UEProj/Multiplayer_third/Multiplayer_third/Saved/W_HUDEA31E9B44E25D67EE7D88E9543EFF8BF.tmp' to 'D:/UEProj/Multiplayer_third/Multiplayer_third/Content/ThirdPerson/Blueprints/UI/W_HUD.uasset'
+[2024.08.13-10.54.26:786][955]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 577 ms)
+[2024.08.13-10.54.26:790][955]AssetCheck: New page: Asset Save: multiple assets
+[2024.08.13-10.54.26:790][955]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Core/BP_PlayerController.BP_PlayerController
+[2024.08.13-10.54.26:790][955]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.08.13-10.54.26:790][955]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/Blueprints/UI/W_HUD.W_HUD
