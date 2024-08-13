@@ -19,4 +19,7 @@ class MULTIPLAYER_THIRD_API UMyBlueprintFunctionLibrary : public UBlueprintFunct
 	
 		UFUNCTION(BlueprintPure, Category = "Float")
     	static float MaxFloat();
+	
+		UFUNCTION(BlueprintPure, Category = "Int")
+    	static int MaxInt();
 };

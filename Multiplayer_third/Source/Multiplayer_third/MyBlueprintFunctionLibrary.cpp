@@ -12,3 +12,8 @@ float UMyBlueprintFunctionLibrary::MaxFloat()
 {
 	return std::numeric_limits<float>::max();
 }
+
+int UMyBlueprintFunctionLibrary::MaxInt()
+{
+	return std::numeric_limits<int>::max();
+}
